@@ -1,0 +1,53 @@
+
+.grid {
+    display: flex;
+    justify-content: center;
+
+}
+
+.column {
+    flex: 1;
+    
+}
+
+.row {
+    border: 0.5px black solid;
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 100px;
+    height: auto;
+    margin: 25px;
+    background: none;
+    border: 5px solid;
+    border-width: 0.2em;
+    padding: 1em 1em;
+    border-radius: 10px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 570px) {
+    .row {
+      width: 23px;
+      height: 23px;
+    }
+  }
